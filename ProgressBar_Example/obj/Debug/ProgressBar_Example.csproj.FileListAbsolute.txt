@@ -1,0 +1,10 @@
+c:\users\gulin\source\repos\ProgressBar_Example\ProgressBar_Example\bin\Debug\ProgressBar_Example.exe.config
+c:\users\gulin\source\repos\ProgressBar_Example\ProgressBar_Example\bin\Debug\ProgressBar_Example.exe
+c:\users\gulin\source\repos\ProgressBar_Example\ProgressBar_Example\bin\Debug\ProgressBar_Example.pdb
+c:\users\gulin\source\repos\ProgressBar_Example\ProgressBar_Example\obj\Debug\ProgressBar_Example.csprojAssemblyReference.cache
+c:\users\gulin\source\repos\ProgressBar_Example\ProgressBar_Example\obj\Debug\ProgressBar_Example.Properties.Resources.resources
+c:\users\gulin\source\repos\ProgressBar_Example\ProgressBar_Example\obj\Debug\ProgressBar_Example.csproj.GenerateResource.cache
+c:\users\gulin\source\repos\ProgressBar_Example\ProgressBar_Example\obj\Debug\ProgressBar_Example.csproj.CoreCompileInputs.cache
+c:\users\gulin\source\repos\ProgressBar_Example\ProgressBar_Example\obj\Debug\ProgressBar_Example.exe
+c:\users\gulin\source\repos\ProgressBar_Example\ProgressBar_Example\obj\Debug\ProgressBar_Example.pdb
+c:\users\gulin\source\repos\ProgressBar_Example\ProgressBar_Example\obj\Debug\ProgressBar_Example.form.resources
