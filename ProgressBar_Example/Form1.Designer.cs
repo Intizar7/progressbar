@@ -28,19 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.pb1 = new System.Windows.Forms.ProgressBar();
             this.pb2 = new System.Windows.Forms.ProgressBar();
             this.pb3 = new System.Windows.Forms.ProgressBar();
             this.btn_for_pb1 = new System.Windows.Forms.Button();
             this.btn_for_pb2 = new System.Windows.Forms.Button();
             this.btn_for_pb3 = new System.Windows.Forms.Button();
-            this.timer = new System.Windows.Forms.Timer(this.components);
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.toggleBtn1 = new System.Windows.Forms.Button();
             this.toggleBtn2 = new System.Windows.Forms.Button();
             this.toggleBtn3 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // pb1
@@ -95,18 +91,6 @@
             this.btn_for_pb3.UseVisualStyleBackColor = true;
             this.btn_for_pb3.Click += new System.EventHandler(this.btn_for_pb3_Click);
             // 
-            // timer
-            // 
-            this.timer.Enabled = true;
-            this.timer.Tick += new System.EventHandler(this.timer_Tick);
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(134, 226);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(414, 20);
-            this.textBox1.TabIndex = 6;
-            // 
             // toggleBtn1
             // 
             this.toggleBtn1.Location = new System.Drawing.Point(482, 46);
@@ -125,6 +109,7 @@
             this.toggleBtn2.TabIndex = 8;
             this.toggleBtn2.Text = "Toggle The Bar";
             this.toggleBtn2.UseVisualStyleBackColor = true;
+            this.toggleBtn2.Click += new System.EventHandler(this.toggleBtn2_Click);
             // 
             // toggleBtn3
             // 
@@ -134,26 +119,16 @@
             this.toggleBtn3.TabIndex = 9;
             this.toggleBtn3.Text = "Toggle The Bar";
             this.toggleBtn3.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(72, 226);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 13);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "Message: ";
+            this.toggleBtn3.Click += new System.EventHandler(this.toggleBtn3_Click);
             // 
             // form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(604, 258);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.toggleBtn3);
             this.Controls.Add(this.toggleBtn2);
             this.Controls.Add(this.toggleBtn1);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btn_for_pb3);
             this.Controls.Add(this.btn_for_pb2);
             this.Controls.Add(this.btn_for_pb1);
@@ -164,7 +139,6 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.form_Load);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -176,12 +150,9 @@
         private System.Windows.Forms.Button btn_for_pb1;
         private System.Windows.Forms.Button btn_for_pb2;
         private System.Windows.Forms.Button btn_for_pb3;
-        private System.Windows.Forms.Timer timer;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button toggleBtn1;
         private System.Windows.Forms.Button toggleBtn2;
         private System.Windows.Forms.Button toggleBtn3;
-        private System.Windows.Forms.Label label1;
     }
 }
 
